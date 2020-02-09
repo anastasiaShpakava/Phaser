@@ -10,7 +10,7 @@ public class Main {
         new Washer(phaser);
         new Washer(phaser);
     }
-    static class Washer extends Thread { //// мойщики, которые моют машины. их у нас 2
+    static class Washer extends Thread { // мойщики, которые моют машины. их у нас 2
         Phaser phaser;
         public Washer(Phaser phaser) {
             this.phaser = phaser;
